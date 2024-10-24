@@ -26,11 +26,11 @@ Mailer::send($to, $subject, $body, $altBody = '')
 ## Installation
 
 1. Install PHPMailer via Composer:
-```
+```terminal
 composer require phpmailer/phpmailer
 ```
 
 2. Include the Mailer class in your project:
-```
+```php
 require 'Mailer.php';
 ```
